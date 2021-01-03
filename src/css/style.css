@@ -1,0 +1,44 @@
+.app {
+    min-height: 100vh;
+  }
+  
+
+
+.navbar{
+    display:flex;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    margin-bottom: 2rem;
+}
+
+.navbar ul{
+    list-style: none;
+    
+}
+
+
+.navbar ul li{
+    display: inline;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    background-color: beige;
+    border: 1px solid wheat;
+}
+
+
+.navbar ul li:hover{
+    cursor: pointer;
+    background-color: wheat;
+}
+
+
+.changeColor{
+    display: block;
+    margin: 0 auto;
+}
+
+.warning-msg{
+    display: block;
+    text-align: center;
+}

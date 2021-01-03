@@ -1,0 +1,20 @@
+.user-table{
+    margin: 0 auto;
+    padding: 1.5rem;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    margin-top: 5rem;
+}
+
+.user-table button{
+    border: none;
+    padding: 0.4rem;
+    outline: none;
+    border-radius: 5%;
+
+}
+
+.user-table button:hover{
+    background-color: antiquewhite;
+    cursor: pointer;
+}
